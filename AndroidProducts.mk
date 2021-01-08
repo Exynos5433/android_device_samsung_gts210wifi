@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The rrOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gts210wifi.mk
+    $(LOCAL_DIR)/rr_gts210wifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gts210wifi-user \
-    lineage_gts210wifi-userdebug \
-    lineage_gts210wifi-eng
+    rr_gts210wifi-user \
+    rr_gts210wifi-userdebug \
+    rr_gts210wifi-eng
